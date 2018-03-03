@@ -5,8 +5,9 @@
 function inverse() {
   var num = document.getElementById("n1");
   num.value = 1/num.value;
+}
 function square() {
-  var num = document.getElementById("n1");
+  var num = document.getElementById("n2");
   num.value = num.value * num.value;
 }
 </script>
@@ -18,7 +19,7 @@ function square() {
 
   <button onclick="inverse()"> 1/x </button>
   Number:
-  <input type="text" id="n1"><p>
+  <input type="text" id="n2"><p>
 
   <button onclick="square()"> x<sup>2</sup> </button>
 </body>
